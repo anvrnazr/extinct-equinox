@@ -6,7 +6,9 @@
 html {
   scroll-behavior: smooth;
 }
+/* remove @apply completely */
 body {
-  @apply bg-white text-gray-900;
+  background-color: white;
+  color: #1a202c; /* equivalent of text-gray-900 */
 }
 
